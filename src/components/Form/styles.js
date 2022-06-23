@@ -12,6 +12,11 @@ form{
    border-radius:20px;
    height:500px;
    margin-top:20px;
+
+   @media (max-width: 685px) {
+   width:300px;
+      
+      }
 }
 
 input{
@@ -21,6 +26,10 @@ input{
     padding:8px;
     border:1px solid red;
     
+    @media (max-width: 685px) {
+        width:200px;
+           
+           }
     
 }
 textarea{
@@ -28,6 +37,11 @@ textarea{
     margin:0 auto;
     border-radius:8px;
     border:1px solid red;
+
+    @media (max-width: 685px) {
+        width:200px;
+           
+           }
 }
 button{
     width:150px;

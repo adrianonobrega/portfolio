@@ -68,8 +68,7 @@ p{
   margin-top:200px;
   }
   @media (max-width: 685px) {
-   margin-top:270px;
-   margin-left:210px;
+   margin:260px 0; 
      
    
      
@@ -80,6 +79,12 @@ font-size:50px;
 margin-left:30px;
 font-family:'Comfortaa';
 font-weight: 500;
+@media (max-width: 685px) {
+  font-size:30px;
+    
+  
+    
+    }
 }
 img{
   padding-top:50px;
@@ -93,6 +98,15 @@ img{
 
     
     }
+    @media (max-width: 685px) {
+      width:200px;
+      height:200px
+      margin-bottom:20px;
+      
+  
+      
+      }
+
     
   }
   
@@ -123,7 +137,10 @@ padding: 5.93rem 1.143rem 0;
 font-family:'Comfortaa';
 
 @media (max-width: 685px) {
-  margin-left:-300px;
+  margin-left:-220px;
+  font-size:30px;
+  margin-top:100px;
+  margin-bottom:0px;
    
  
    

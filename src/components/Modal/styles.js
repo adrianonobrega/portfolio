@@ -13,6 +13,12 @@ margin-top:250px;
     
     }
 
+    @media (max-width: 685px) {
+        width:350px;
+        height:450px;
+           
+           }
+
 h1{
     font-size:25px;
     margin-top:20px;
@@ -22,6 +28,11 @@ h1{
               margin-left:250px;
         
     }
+    @media (max-width: 685px) {
+        font-size:20px;
+        margin-left:185px;
+           
+           }
 }
 
 h3{
@@ -89,6 +100,10 @@ img{
         height:200px;         
         
         }
+        @media (max-width: 685px) {
+            width:150px;
+               
+               }
 }
 
 

@@ -17,7 +17,13 @@ export const ButtonStyled = styled.button`
     :hover{
       background:red;
     }
+    @media (max-width: 685px) {
+   
+      height:50px;
+      width:150px;
   
+  
+  }
   // display: flex;
   // flex-direction: row;
   // justify-content: center;

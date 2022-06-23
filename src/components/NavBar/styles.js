@@ -19,7 +19,12 @@ position:fixed;
 width:100%;
 z-index:100;
 
+@media (max-width: 685px) {
+   
+    margin-left:-30px;
 
+
+}
 
 
 `
@@ -32,6 +37,11 @@ export const Nome = styled.a `
 
 font-size:20px;
 color:white;
+@media (max-width: 685px) {
+   
+display:none;
+
+}
 
 `
 

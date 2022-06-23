@@ -9,6 +9,13 @@ text-align:center;
 justify-content:center;
 padding:3em;
 
+@media (max-width: 685px) {
+   
+  margin-bottom:15px;
+
+
+}
+
 img{
     width:50px;
     height:50px;
