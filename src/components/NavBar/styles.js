@@ -49,6 +49,15 @@ export const Lista = styled.ul `
 display:flex;
 list-style:none;
 
+@media (max-width: 685px) {
+   
+    margin-left:-100px;
+    
+
+    
+     
+     
+     }
 
 li{
     margin-right:1em;
@@ -62,7 +71,10 @@ a{
     @media (max-width: 685px) {
    
        font-size:12px;
-        // margin-left:-9px;
+       
+
+       
+        
         
         }
 }

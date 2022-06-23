@@ -174,7 +174,7 @@ padding: 5.93rem 1.143rem 0;
 font-family:'Comfortaa';
 
 @media (max-width: 685px) {
-  margin-left:-220px;
+  margin-left:-100px;
   font-size:30px;
   margin-top:100px;
   margin-bottom:0px;
