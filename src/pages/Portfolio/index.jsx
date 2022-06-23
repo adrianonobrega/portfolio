@@ -1,5 +1,5 @@
 
-import { Tudo,Lista,Pag,Sobre,Tecnologias,Qualificacao,Projetos,Contato,Video,Titulos,Tec,Sobre2} from "./styles"
+import { Tudo,Lista,Pag,Sobre,Tecnologias,Qualificacao,Projetos,Contato,Video,Titulos,Tec,Sobre2,QualificacaoMobile} from "./styles"
 import { Link, animateScroll as scroll } from "react-scroll";
 import NavBar from "../../components/NavBar";
 import SectionCaroulsel from "../../components/Caroulsel";
@@ -97,7 +97,7 @@ return (
 <p> Apaixonado por tecnologia, meu primeiro contato foi com uns 13 anos e com 15 anos procurei aprender como funcionavam as máquinas, e por oportunidades que a vida me deu, acabei migrando para outras áreas, mas agora estou de volta na área que eu sempre amei e mais dedicado do que nunca em aprender novas tecnologias. </p>
 </Sobre2>
 
-
+<br></br>
 </Sobre>
 <Titulos>Tecnologias</Titulos>
 <Tecnologias id="tecnologia">
@@ -109,7 +109,16 @@ return (
 
 </Tecnologias>
 <Titulos>Qualificação</Titulos>
-<Qualificacao id="qualificações"><SectionCaroulsel/></Qualificacao>
+<QualificacaoMobile>
+    <a href="https://drive.google.com/file/d/1KYPmKlmTjXjEqvGAU8N2QgzPPzNmPiF8/view?usp=sharing" target="_blank">Certificado de conclusão Frond-End</a>
+    <br></br>
+    <br></br>
+    <a href="https://drive.google.com/file/d/1olvyNnnv4Ck5dQ6Axi3g8492HypBYwmc/view?usp=sharing" target="_blank">Certificado de conclusão Redes - Roteamento do basico ao avançado</a>
+</QualificacaoMobile>
+<Qualificacao id="qualificações">
+    <SectionCaroulsel/>
+    
+</Qualificacao>
 <Titulos>Projetos</Titulos>
 <Projetos id="projetos">
 

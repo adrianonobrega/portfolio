@@ -21,7 +21,7 @@ export const ButtonStyled = styled.button`
    
       height:50px;
       width:150px;
-  
+      margin-left:-120px;
   
   }
   // display: flex;

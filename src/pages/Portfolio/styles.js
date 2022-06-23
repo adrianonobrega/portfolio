@@ -17,10 +17,7 @@ width:100%;
 height:100vh;
 object-fit:cover;
 
-@media (max-width: 400px) {
-  display:none;
-  
-}
+
 
 
 
@@ -69,8 +66,9 @@ p{
   }
   @media (max-width: 685px) {
    margin:260px 0; 
-     
-   
+     width:250px;
+   margin-top:290px;
+   margin-bottom:30px;
      
      }
 }
@@ -80,8 +78,8 @@ margin-left:30px;
 font-family:'Comfortaa';
 font-weight: 500;
 @media (max-width: 685px) {
-  font-size:30px;
-    
+  font-size:20px;
+    margin-left:-180px;
   
     
     }
@@ -99,10 +97,9 @@ img{
     
     }
     @media (max-width: 685px) {
-      width:200px;
-      height:200px
+   
       margin-bottom:20px;
-      
+      margin-top:40px;
   
       
       }
@@ -116,12 +113,52 @@ export const Tecnologias = styled.section `
 margin-bottom:200px;
 padding: 5.93rem 1.143rem 0;
 // min-height:100vh;
+
+
+
+
 `
 export const Qualificacao = styled.section `
 margin-bottom:200px;
 padding: 5.93rem 1.143rem 0;
 // min-height:100vh;
+
+@media (max-width: 685px) {
+  display:none;
+  
+   
+ 
+   
+   }
+
+
 `
+export const QualificacaoMobile = styled.section `
+
+display:none;
+
+@media (max-width: 685px) {
+  display:block;
+  
+  padding-top:30px;
+  
+  a{
+    color:white;
+    text-decoration:none;
+   margin-top:60px;
+   margin-left:10px;
+  }
+   a:hover{
+    color:red;
+   }
+ 
+   
+   }
+
+
+`
+
+
 
 export const sectionProjetos = styled.section `
 display:flex;
@@ -161,7 +198,12 @@ padding: 5.93rem 1.143rem 0;
    
  
   }
-
+  @media (max-width: 685px) {
+    display:block;
+      
+    
+      
+      }
 
 
 

@@ -10,13 +10,14 @@ margin-top:250px;
 
 @media (max-width: 820px) {
     width:500px;         
-    
+  
     }
 
     @media (max-width: 685px) {
-        width:350px;
+        width:300px;
         height:450px;
-           
+           margin-left:-180px;
+           margin-top:20px;
            }
 
 h1{
@@ -29,8 +30,9 @@ h1{
         
     }
     @media (max-width: 685px) {
-        font-size:20px;
+        font-size:15px;
         margin-left:185px;
+        
            
            }
 }

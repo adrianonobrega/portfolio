@@ -18,8 +18,9 @@ border-radius:20px;
         
         }
         @media (max-width: 650px) {
-            width:200px;         
-            
+            // width:150px;         
+            margin-left:-10px;
+            margin-right:20px;
             }
 
 h1{

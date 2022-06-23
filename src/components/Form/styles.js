@@ -15,7 +15,7 @@ form{
 
    @media (max-width: 685px) {
    width:300px;
-      
+      margin-left:5px;
       }
 }
 

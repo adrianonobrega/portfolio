@@ -11,9 +11,10 @@ padding:3em;
 
 @media (max-width: 685px) {
    
-  margin-bottom:15px;
-
-
+  margin-bottom:0px;
+  
+  height:148px;
+font-size:12px;
 }
 
 img{

@@ -21,7 +21,7 @@ z-index:100;
 
 @media (max-width: 685px) {
    
-    margin-left:-30px;
+   
 
 
 }
@@ -59,6 +59,12 @@ li{
 a{
     text-decoration:none;
     color:white;
+    @media (max-width: 685px) {
+   
+       font-size:12px;
+        // margin-left:-9px;
+        
+        }
 }
 a:hover{
     color:red;
